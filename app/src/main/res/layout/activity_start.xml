@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zane.quizapp.StartActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#b1c49f">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Capital Quiz!"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        />
+    
+    <Button
+        android:id="@+id/all"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="ALL"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        android:background="#c68989"/>
+
+    <Button
+        android:id="@+id/asia"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="Asia"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        android:background="#c68989"/>
+
+    <Button
+        android:id="@+id/america"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="America"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        android:background="#c68989"/>
+
+    <Button
+        android:id="@+id/europe"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="Europe"
+        android:layout_marginTop="10dp"
+        android:onClick="startQuiz"
+        android:background="#c68989"/>
+</LinearLayout>
